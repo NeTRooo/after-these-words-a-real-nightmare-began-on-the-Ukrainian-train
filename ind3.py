@@ -10,7 +10,7 @@ def insert_letter_before_last_i(sentence, letter_to_insert):
 
 if __name__ == '__main__':
     original_sentence = input("Введите предложение: ")
-    letter_to_insert = "X"
+    letter_to_insert = input("Введите символ для добавления: ")
     result_sentence = insert_letter_before_last_i(original_sentence, letter_to_insert)
 
     print(result_sentence)
